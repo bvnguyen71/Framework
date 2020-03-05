@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28703" started-at="2020-03-04T17:36:43 CST" finished-at="2020-03-04T17:37:11 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28703" started-at="2020-03-04T17:36:43 CST" finished-at="2020-03-04T17:37:11 CST">
+      <class name="com.learnautomation.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@48503868]" name="setUpSuite" is-config="true" duration-ms="725" started-at="2020-03-04T17:36:42 CST" finished-at="2020-03-04T17:36:43 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@48503868]" name="setup" is-config="true" duration-ms="22464" started-at="2020-03-04T17:36:43 CST" finished-at="2020-03-04T17:37:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@48503868]" name="loginApp" duration-ms="4228" started-at="2020-03-04T17:37:05 CST" finished-at="2020-03-04T17:37:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@48503868]" name="tearDownMethod" is-config="true" duration-ms="8" started-at="2020-03-04T17:37:10 CST" finished-at="2020-03-04T17:37:10 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@48503868] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@48503868]" name="tearDown" is-config="true" duration-ms="1740" started-at="2020-03-04T17:37:10 CST" finished-at="2020-03-04T17:37:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
